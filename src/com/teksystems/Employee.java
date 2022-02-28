@@ -22,15 +22,11 @@ public class Employee {
 
     //methods
     public Double calculateSalary(){
-       double salary;
-       salary = basicSalary + ( basicSalary * specialAllowance/100D ) + ( basicSalary * hra/100D );
-        return salary;
+       return basicSalary + ( basicSalary * specialAllowance/100D ) + ( basicSalary * hra/100D );
     }
 
     public Double calculateTransportAllowance(){
-        double transportationAllowance;
-        transportationAllowance = basicSalary * .10;
-        return transportationAllowance;
+        return basicSalary * .10;
     }
 
 }

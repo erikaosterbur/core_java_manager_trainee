@@ -10,9 +10,7 @@ public class Manager extends Employee {
     //methods
     @Override
     public Double calculateTransportAllowance(){
-        double transportationAllowance;
-        transportationAllowance = basicSalary * .15;
-        return transportationAllowance;
+        return basicSalary * .15;
     }
 
 }
